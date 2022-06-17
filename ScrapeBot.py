@@ -6,6 +6,7 @@ import time
 api_id = 
 api_hash = ''
 client = TelegramClient('anon', api_id, api_hash).start()
+mainGroup=
 
 a=0
 arrChannels=[]
@@ -51,7 +52,7 @@ for channel in arrChannels:
 
         for message in messages:
             if message.media:
-                client.send_file(-278164674, message.media)
+                client.send_file(mainGroup, message.media)
     except:
         print("The channel/user/group are incorrect or there are an error")
         input("Press ENTER to exit")
