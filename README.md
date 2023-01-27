@@ -17,3 +17,6 @@ pip install -r requirements.txt
 
 https://user-images.githubusercontent.com/100825478/174222224-a490b40d-dd0e-4120-8d96-cd14147ce7ed.mp4
 
+###
+Please note that using this script to scrape messages from Telegram entities without their explicit consent may be against Telegram's terms of service and may result in your API credentials being banned. Use this script responsibly and only scrape messages from entities that you have obtained explicit consent from.
+###
